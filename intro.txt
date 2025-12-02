@@ -1,0 +1,29 @@
+API REST 
+
+Qu'est ce qu'une API REST ? 
+Une API REST (Representational State Transfer) est un style d'architecture qui définit un ensemble de règles permettant à des systèmes d'intéragir via un protocole HTTP.
+Elle repose sur l'utilisation des ressources identifiées par des URL, et des méthodes HTTP  standart (GET, POST, PUT, DELETE ...) pour manipuler ces ressources 
+
+https://monapireste.com/api/users ---> requete http GET ---> retourne un format JSON de données contenants tout les utilisateurs 
+
+Objectifs d'une API REST :
+Faciliter la communication entre applications 
+Offrir un accés simple, cohérent et standardisé aux données 
+Permettre l'évolution du système sans impacter les clients existants
+
+Dant REST, les endpoints fonctionnents avec les méthodes HTTP suivantes : 
+
+GET   Lire / récupérer une ressource   GET /users
+POST  Créer une ressource              POST /user/add
+PUT   mettre à jour entièrement une    PUT /user/update/124
+      ressource
+PATCH mettre à jour partiellement une  PATCH /user/124
+      ressource
+DELETE supprimer une ressource          DELETE /user/remove/124
+
+Pourquoi REST est-il si populaire ? 
+
+Facile à apprendre et mettre en oeuvre 
+Basé sur des technologies web déjà maitrisés
+Très performant et scalable
+Supporté par quasiment tous les langages de programmation
